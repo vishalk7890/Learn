@@ -3,7 +3,8 @@ var NEW= mongoose.model("LISTEN",{
     text:{
         type: String,
         required: true,
-        max:12
+        max:12,
+        completedAt:true
     },
     email:{
         type: String,
